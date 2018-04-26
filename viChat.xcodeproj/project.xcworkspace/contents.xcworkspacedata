@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Telegraph.xcodeproj">
+      location = "self:/Users/macbookpro/code/ios/Telegram/viChat.xcodeproj">
    </FileRef>
 </Workspace>
