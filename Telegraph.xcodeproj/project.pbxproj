@@ -391,6 +391,7 @@
 		09FCB6921FB2E98C0007D2CA /* PasswordPlaceholderIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09FCB6901FB2E98B0007D2CA /* PasswordPlaceholderIcon@2x.png */; };
 		09FCB6951FB2FAE80007D2CA /* PasscodePlaceholderIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09FCB6931FB2FAE60007D2CA /* PasscodePlaceholderIcon@2x.png */; };
 		09FCB6961FB2FAE80007D2CA /* PasscodePlaceholderIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09FCB6941FB2FAE70007D2CA /* PasscodePlaceholderIcon@3x.png */; };
+		529759652091AC7300886EA7 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 529759642091AC7200886EA7 /* config.h */; };
 		6801D6681BEF6CC600533783 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08805C9156E8F5100311537 /* AddressBook.framework */; };
 		6804D8AE1D1D624E0082E71F /* TGGifGalleryAddAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6804D8AC1D1D624E0082E71F /* TGGifGalleryAddAccessoryView.h */; };
 		6804D8AF1D1D624E0082E71F /* TGGifGalleryAddAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6804D8AD1D1D624E0082E71F /* TGGifGalleryAddAccessoryView.m */; };
@@ -5458,6 +5459,7 @@
 		09FCB6901FB2E98B0007D2CA /* PasswordPlaceholderIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PasswordPlaceholderIcon@2x.png"; path = "Resources/PasswordPlaceholderIcon@2x.png"; sourceTree = "<group>"; };
 		09FCB6931FB2FAE60007D2CA /* PasscodePlaceholderIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PasscodePlaceholderIcon@2x.png"; path = "Resources/PasscodePlaceholderIcon@2x.png"; sourceTree = "<group>"; };
 		09FCB6941FB2FAE70007D2CA /* PasscodePlaceholderIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PasscodePlaceholderIcon@3x.png"; path = "Resources/PasscodePlaceholderIcon@3x.png"; sourceTree = "<group>"; };
+		529759642091AC7200886EA7 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		6803268D1D5D74FF0062725B /* TGPhotoPaintSettingsWrapperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPhotoPaintSettingsWrapperView.h; sourceTree = "<group>"; };
 		6803268E1D5D74FF0062725B /* TGPhotoPaintSettingsWrapperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGPhotoPaintSettingsWrapperView.m; sourceTree = "<group>"; };
 		680326911D5DFC640062725B /* TGPaintingData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPaintingData.h; sourceTree = "<group>"; };
@@ -19515,6 +19517,7 @@
 		D08805A1156E8F3600311537 = {
 			isa = PBXGroup;
 			children = (
+				529759642091AC7200886EA7 /* config.h */,
 				D0B9B19419CA324D0020C9CF /* LaunchScreen.xib */,
 				D0DAA484197496240036E709 /* Icon-76.png */,
 				D0C6748E1CB8640400183765 /* Icon-167.png */,
@@ -23870,6 +23873,7 @@
 				D0115F321F41F1300039383E /* TLRPCauth_recoverPassword.h in Headers */,
 				D0A4D7C71C10B03200537E74 /* TGVTAcceleratedVideoView.h in Headers */,
 				68EE347F1C922CC8002F5419 /* TGOpenInBrowserItems.h in Headers */,
+				529759652091AC7300886EA7 /* config.h in Headers */,
 				D01160801F41F1320039383E /* TLRPCphone_discardCall.h in Headers */,
 				D0DB05BE1BC7B5DE00AB1AD1 /* TGShareSheetSharePeersCaptionView.h in Headers */,
 				D0C80D321A9561AF00D5DF8A /* TGPasscodeSettingsController.h in Headers */,
@@ -28699,12 +28703,7 @@
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
-				WARNING_CFLAGS = (
-					"-Wall",
-					"-Wno-dollar-in-identifier-extension",
-					"-Wno-gnu",
-					"-Wno-selector-type-mismatch",
-				);
+				WARNING_CFLAGS = "-Wno-unused-variable";
 			};
 			name = "Debug AppStore";
 		};
@@ -28794,7 +28793,7 @@
 				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe";
-				WARNING_CFLAGS = "-Wall";
+				WARNING_CFLAGS = "-Wno-unused-variable";
 				WRAPPER_EXTENSION = app;
 			};
 			name = "Debug AppStore";
@@ -29315,12 +29314,7 @@
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3d288e61-4eb7-41c0-87cc-4cb24f2b7517";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
-				WARNING_CFLAGS = (
-					"-Wall",
-					"-Wno-dollar-in-identifier-extension",
-					"-Wno-gnu",
-					"-Wno-selector-type-mismatch",
-				);
+				WARNING_CFLAGS = "-Wno-unused-variable";
 			};
 			name = "Release Hockeyapp";
 		};
@@ -29409,7 +29403,7 @@
 				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe";
-				WARNING_CFLAGS = "-Wall";
+				WARNING_CFLAGS = "-Wno-unused-variable";
 				WRAPPER_EXTENSION = app;
 			};
 			name = "Release Hockeyapp";
@@ -29664,12 +29658,7 @@
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
-				WARNING_CFLAGS = (
-					"-Wall",
-					"-Wno-dollar-in-identifier-extension",
-					"-Wno-gnu",
-					"-Wno-selector-type-mismatch",
-				);
+				WARNING_CFLAGS = "-Wno-unused-variable";
 			};
 			name = "Debug Hockeyapp";
 		};
@@ -29707,12 +29696,7 @@
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3d288e61-4eb7-41c0-87cc-4cb24f2b7517";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
-				WARNING_CFLAGS = (
-					"-Wall",
-					"-Wno-dollar-in-identifier-extension",
-					"-Wno-gnu",
-					"-Wno-selector-type-mismatch",
-				);
+				WARNING_CFLAGS = "-Wno-unused-variable";
 			};
 			name = "Release AppStore";
 		};
@@ -29802,7 +29786,7 @@
 				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe";
-				WARNING_CFLAGS = "-Wall";
+				WARNING_CFLAGS = "-Wno-unused-variable";
 				WRAPPER_EXTENSION = app;
 			};
 			name = "Debug Hockeyapp";
@@ -29891,7 +29875,7 @@
 				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe";
-				WARNING_CFLAGS = "-Wall";
+				WARNING_CFLAGS = "-Wno-unused-variable";
 				WRAPPER_EXTENSION = app;
 			};
 			name = "Release AppStore";

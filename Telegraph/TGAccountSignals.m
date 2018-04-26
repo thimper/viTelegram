@@ -17,7 +17,7 @@
 
 #import "TLauth_SentCode$auth_sentCode.h"
 
-#import "../../config.h"
+#import "config.h"
 
 #import "TGTLSerialization.h"
 #import "TLDcOption$modernDcOption.h"
