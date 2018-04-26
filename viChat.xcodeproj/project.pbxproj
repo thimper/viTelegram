@@ -28544,7 +28544,7 @@
 				LIBRARY_SEARCH_PATHS = thirdparty/SSignalKit;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.esgoe.vichat.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "fa3a73e6-2790-4b55-bb6e-29d31e7d9266";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "910eaeba-2d88-4938-8365-24f49cad7234";
@@ -28582,7 +28582,7 @@
 				LIBRARY_SEARCH_PATHS = thirdparty/SSignalKit;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.esgoe.vichat.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "00ea86d7-b098-48f0-b8ac-8e9f9b222c05";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "00ea86d7-b098-48f0-b8ac-8e9f9b222c05";
@@ -28910,7 +28910,7 @@
 				LIBRARY_SEARCH_PATHS = thirdparty/SSignalKit;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.esgoe.vichat.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "944f892d-83e1-43dc-94b6-4fe8e74a9014";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "944f892d-83e1-43dc-94b6-4fe8e74a9014";
@@ -29521,7 +29521,7 @@
 				LIBRARY_SEARCH_PATHS = thirdparty/SSignalKit;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.esgoe.vichat.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "8055198b-f533-42f9-a336-3d1fc27ee913";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "d2dcafba-2f65-4b5b-803e-fa45d7726083";
